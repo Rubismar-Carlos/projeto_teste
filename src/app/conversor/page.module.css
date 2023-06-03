@@ -1,0 +1,47 @@
+.container {
+    margin-top: 100px;
+}
+
+.container h2 {
+    color: rgba(0, 162, 255, 0.603);
+}
+
+.box_input {
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    margin: 20px auto;
+}
+
+.box_input input {
+    width: 220px;
+    height: 30px;
+    margin: 0 auto;
+    border: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.185);
+}
+
+.box_input input:focus {
+    outline: none;
+}
+
+.box_input input::placeholder {
+    text-align: center;
+}
+
+.btn {
+    width: 200px;
+    height: 40px;
+    font-size: 1.1em;
+    margin: 20px auto;
+    background-color: rgba(0, 162, 255, 0.603);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    transition: 1s;
+    background-color: rgba(0, 162, 255, 0.897);
+}

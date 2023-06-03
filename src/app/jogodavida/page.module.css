@@ -1,0 +1,26 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.box {
+    margin: 0 auto;
+}
+
+.btn {
+    width: 200px;
+    height: 40px;
+    font-size: 1.1em;
+    margin: 20px auto;
+    background-color: rgba(0, 162, 255, 0.603);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    transition: 1s;
+    background-color: rgba(0, 162, 255, 0.897);
+}

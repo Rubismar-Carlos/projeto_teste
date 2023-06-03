@@ -1,0 +1,112 @@
+/* box do formulario */
+.box_form form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 350px;
+    margin: 30px auto;
+    text-align: center;
+}
+
+.box_form input {
+    width: 200px;
+    height: 30px;
+    border: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.185);
+    background-color: transparent;
+    font-size: 1.1em;
+}
+
+.box_form input:focus {
+    outline: none;
+}
+
+.btn {
+    width: 200px;
+    height: 40px;
+    font-size: 1.1em;
+    margin: 20px auto;
+    background-color: rgba(0, 162, 255, 0.603);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    transition: 1s;
+    background-color: rgba(0, 162, 255, 0.897);
+}
+
+/* Tabela do menu com os dados dos clientes */
+.tabela_menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 1px solid black;
+    width: 350px;
+    margin: 30px auto;
+    position: relative;
+    text-align: center;
+}
+
+.tabela_menu table {
+    width: 100%;
+    text-align: center;
+}
+
+.tabela_menu thead {
+    background-color: gray;
+    color: white;
+}
+
+.tabela_menu tbody {
+    width: 200px;
+}
+
+.tabela_menu tfoot {
+    background-color: gray;
+    color: white;
+}
+
+/* box onde pode dividir o valor */
+.box_dividir {
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    width: 200px;
+    margin: 20px auto;
+}
+
+.box_dividir input {
+    border: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.185);
+    font-size: 1.1em;
+}
+
+.box_dividir input:focus {
+    outline: none;
+}
+
+
+/* botao da conta paga */
+.conta_paga {
+    background-color: rgba(0, 162, 255, 0.897) ;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+.conta_paga h2 {
+    margin-top: 10px;
+}
+
+.conta_naopaga {
+    display: none;
+}
