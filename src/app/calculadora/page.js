@@ -1,8 +1,6 @@
 'use client'
 import { useState } from "react";
 
-import Head from "next/head";
-
 import styles from './page.module.css'
 
 export default function Calculadora() {
@@ -115,9 +113,6 @@ export default function Calculadora() {
 
     return (
     <div>
-      <Head>
-        <title>Projeto | Pedidos</title>
-      </Head>
       <div className={styles.box_form}>
         <form>
         <p>Cadastre todos os dados pedidos para poder ver a conta.</p>

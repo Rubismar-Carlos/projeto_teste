@@ -1,7 +1,5 @@
-"use client"
+'use client'
 import { useState, useEffect } from "react";
-
-import Head from "next/head";
 
 import styles from './page.module.css'
 
@@ -80,9 +78,6 @@ export default function JogoDaViada() {
     }, [running]);
 
     return <div>
-        <Head>
-            <title>Projeto | Jogo da Vida</title>
-        </Head>
         <div className={styles.container}>
         <div className={styles.box}>
           <div>
